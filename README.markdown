@@ -4,8 +4,10 @@ This includes the sbt project setup, a piece of sample code with remote actors a
 
 For eclipse:
 
- - clone this repository 
- - install eclipse with the scala plugin
+ - clone this repository
+  - cd workspace
+  - git clone git://github.com/coolscala/startakka.git
+ - install eclipse with the scala plugin: http://www.scala-ide.org/
  - open the project and run the single file there
  - have fun
 
@@ -19,6 +21,11 @@ For sbt:
  - at the sbt prompt type 
   - "update" this will update the dependencies
   - "run" this will build and run the sample code
+
+Versions used:
+ - scala 2.9.1
+ - sbt 0.11.2
+ - akka 1.3-RC1
 
 TODO: add posterous - Posterous is an SBT plugin that allows you to publish notes with every project release.
 
