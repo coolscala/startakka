@@ -8,7 +8,7 @@ For eclipse:
   - cd workspace
   - git clone git://github.com/coolscala/startakka.git
  - install eclipse with the scala plugin: http://www.scala-ide.org/
- - open the project and run the single file there
+ - open the project and run the AllInOne sample there OR the separate Server/Client
  - have fun
 
 Optionally, you can install scala and sbt command line and evolve from there. We use SBT for dependency management but the required libs have been checked in for you.
